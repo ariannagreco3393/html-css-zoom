@@ -116,6 +116,10 @@ Navbar
     font-size: 10px;
 }
 
+/*
+Manu left
+*/
+
 .menu-left {
     align-items: center;
     padding: 0 20px;
@@ -131,6 +135,9 @@ Navbar
 
 }
 
+/*
+Main menu
+*/
 
 .main-menu {
     justify-content: center;
@@ -146,6 +153,9 @@ Navbar
 
 }
 
+/*
+Menu right
+*/
 
 .menu-right {
     background-color: var(--light-gray);
