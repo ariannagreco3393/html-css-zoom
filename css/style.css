@@ -5,6 +5,7 @@ Colors
 :root {
 --black: rgba(0, 0, 0, 1);
 --dark-gray: rgba(34, 34, 34, 1);
+--light-gray: rgba(74, 74, 74, 1);
 --green: rgba(75, 200, 0, 1);
 --red: rgba(222, 32, 43, 1);
 --white: rgba(255, 255, 255, 1);
@@ -18,6 +19,10 @@ Common rules
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
 }
 
 /*
@@ -37,7 +42,6 @@ Main
 main {
     height: calc(100vh - 100px);
     background-color: black;
-    padding: 80px 0 30px;
 
 }
 .box {
@@ -46,6 +50,21 @@ main {
     background-color: rgb(255, 102, 0);
     margin: auto;
 }
+.view_speaker, .maximize_view {
+    color: white;
+    background-color: var(--light-gray);
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+
+
+.view_options {
+    justify-content: flex-end;
+
+}
+
 
 /*
 Navbar
