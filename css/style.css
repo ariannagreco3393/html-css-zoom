@@ -1,0 +1,37 @@
+/*
+Colors
+*/
+
+:root {
+--black: rgba(0, 0, 0, 1);
+--dark-gray: rgba(34, 34, 34, 1);
+--green: rgba(75, 200, 0, 1);
+--red: rgba(222, 32, 43, 1);
+--white: rgba(255, 255, 255, 1);
+}
+
+/*
+Common rules
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+utility
+*/
+
+
+
+/*
+Header
+*/
+
+
+/*
+Main
+*/
+
